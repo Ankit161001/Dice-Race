@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+    <link rel="stylesheet" href="./dice.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=shadow-multiple">
+</head>
+<body>
+    <script src="./dice.js"></script>
+    <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2017/02/01/21/47/cube-2031511__340.jpg" alt="dice">
+    </div>
+    <div class="box">
+        <div class="inner-box">
+            <span class="head font-effect-shadow-multiple">Dice Race</span><br><br>
+            <span class="subhead">Player 1::</span><span id="val1" class="subhead"> Value</span><br><br>
+            <span class="subhead">Player 2::</span><span id="val2" class="subhead"> Value</span><br><br>
+            <button onclick="roll()" class="but1">Roll Dice</button> <br><br>
+            <span class="subhead">Current Dice Roll::</span><span id="val3" class="subhead"> Value</span><br><br>
+            <span id="val4" class="subhead"><b>Result</b></span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.image {
+    margin-left: 250px;
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+}
+
+.box {
+    background-color: azure;
+    width: 500px;
+    height: 340px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 490px;
+}
+
+.inner-box {
+    color: black;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-align: center; 
+}
+
+.head {
+    font-size: 28px;
+    font-family: "Sofia", sans-serif;
+}
+
+.subhead {
+    font-size: 18px;
+    font-family: 'Sofia', sans-serif;
+}
+
+.but1 {
+    font-size: 18px;
+    font-family: 'Sofia', sans-serif;
+    border: none;
+    background-color: rgb(49, 47, 47);
+    transition: 0.3s;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.but1:hover {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: black;
+}
