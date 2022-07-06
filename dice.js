@@ -14,6 +14,7 @@ function roll() {
         document.getElementById('val1').innerText = ' ' + player1;
         if (player1 >= target) {
             document.getElementById('val4').innerText = 'Player1 Wins!';
+            setTimeout(() => { window.location.reload(); }, 3000);
             console.log("got it!");
         }
     }
@@ -23,6 +24,7 @@ function roll() {
         document.getElementById('val2').innerText = ' ' + player2;
         if (player2 >= target) {
             document.getElementById('val4').innerText = 'Player2 Wins!';
+            setTimeout(() => { window.location.reload(); }, 3000);
             console.log("got it!");
         }
     }
